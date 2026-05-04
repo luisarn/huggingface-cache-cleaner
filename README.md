@@ -2,6 +2,8 @@
 
 A modern, fast desktop application to manage your local Hugging Face cache. Built with Tauri (Rust + TypeScript).
 
+> ⚠️ **Alpha Version** — This app is still in early development. It has only been tested on **macOS** so far. Windows and Linux builds are experimental and may not work correctly. Use at your own risk, and please [report issues](https://github.com/luisarn/huggingface-cache-cleaner/issues) if you encounter any problems.
+
 ![App Screenshot](screenshot.png)
 
 ## Features
@@ -22,9 +24,9 @@ A modern, fast desktop application to manage your local Hugging Face cache. Buil
 Download the latest release for your platform from the [Releases](https://github.com/yourusername/huggingface-cache-cleaner/releases) page.
 
 Supported platforms:
-- macOS (Intel & Apple Silicon)
-- Windows
-- Linux (AppImage & .deb)
+- ✅ macOS (Intel & Apple Silicon) — **Tested**
+- ⚠️ Windows — *Experimental / Not tested*
+- ⚠️ Linux (AppImage & .deb) — *Experimental / Not tested*
 
 ### Build from Source
 
