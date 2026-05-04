@@ -1,0 +1,76 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist",
+    "withGlobalTauri": false
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "MIT License",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "com.huggingface.cachecleaner",
+      "longDescription": "A desktop application to manage your local Hugging Face cache. View disk usage, search models, and delete them easily.",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null,
+        "minimumSystemVersion": "10.13"
+      },
+      "resources": [],
+      "shortDescription": "Manage Hugging Face cache locally",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "",
+        "webviewInstallMode": {
+          "type": "embedBootstrapper"
+        }
+      }
+    },
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline';"
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 800,
+        "minHeight": 600,
+        "resizable": true,
+        "title": "Hugging Face Cache Cleaner",
+        "width": 1200,
+        "minWidth": 900,
+        "center": true,
+        "decorations": true,
+        "transparent": false,
+        "alwaysOnTop": false
+      }
+    ]
+  }
+}

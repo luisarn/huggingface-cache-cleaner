@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#fb8c00"/>
+  
+  <!-- Folder shape -->
+  <rect x="96" y="176" width="320" height="224" rx="24" fill="white" opacity="0.95"/>
+  <rect x="96" y="144" width="160" height="64" rx="16" fill="white" opacity="0.95"/>
+  
+  <!-- H letter -->
+  <text x="256" y="340" font-family="Arial, sans-serif" font-size="180" font-weight="bold" fill="#fb8c00" text-anchor="middle">H</text>
+</svg>

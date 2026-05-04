@@ -1,0 +1,43 @@
+{
+  "name": "huggingface-cache-cleaner",
+  "version": "1.0.0",
+  "description": "A desktop application to manage your local Hugging Face cache - view disk usage, search models, and delete them easily.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "check": "tsc --noEmit",
+    "lint": "echo 'No linter configured'",
+    "icons": "tauri icon src-tauri/icons/icon.svg --output src-tauri/icons"
+  },
+  "keywords": [
+    "huggingface",
+    "cache",
+    "manager",
+    "machine-learning",
+    "ai",
+    "cleanup",
+    "storage"
+  ],
+  "author": "Hugging Face Cache Cleaner Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/huggingface-cache-cleaner"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "1.6.3",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
